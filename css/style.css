@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Lobster&display=swap');
+
+/*font-family: 'Archivo Narrow', ;
+font-family: 'Lobster', ;*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    background: #262626;
+    float: left;
+    position: fixed;
+    font-family: 'Archivo Narrow';
+}
+.photo img{
+    width: 15vw;
+    height: 330px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.sidebar_menu{}
+.mainmenu{
+    list-style-type: none;
+}
+.nav{
+
+}
+.nav i{
+    color: #fff;
+    font-size: 32px;
+    margin-right: 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+
+}
+
+#home{
+    background-image: url(../img/20191218_155816.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    position: relative;
+    width: 80vw;
+    height: 100vh;
+    float: right;
+    font-family: 'Lobster';
+}
+.details{
+    position: absolute;
+    
+    z-index: 999;
+    background-color: rgba(41, 66, 80, 0.85);
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.detail-text{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.detail-text h1{
+    display: block;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.detail-text h3{
+    display: block;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+}
+.detail-text img{
+    width: 125px;
+    height: 55px;
+    vertical-align: middle;
+    margin: 0 12px;
+}
+
+.detail-text a{
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid;
+}
+
+#skills{
+    background-image: url(../img/hayat6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 80vw;
+    height: 100vh;
+    float: right;
+}
+.skills-bar{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 50px;
+}
+progress#file {
+    background: #777;
+    width: 25em;
+    margin-bottom: 15px;
+    height: 1.5em;
+    margin-left: 120px;
+    display: block;
+}
+
+label {
+    color: #555;font-family: 'archivo narrow';font-size: 24px;display: inline-block;float: left;margin-right: 42px;font-weight: 700;line-height: 1;
+}
